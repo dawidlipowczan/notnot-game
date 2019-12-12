@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 class JakubSide extends StatefulWidget {
@@ -6,9 +7,21 @@ class JakubSide extends StatefulWidget {
 }
 
 class JakubPage extends State<JakubSide> {
+
+
   Widget build(BuildContext context) {
     return Container(
-      child: Text('Jakubowa strona')
+      child: new Column (
+        
+        children: <Widget>[
+          Text(' <== Nie patrz w lewo'),
+          Text(' <== Nie patrz w lewo'),
+          Text(' <== Nie patrz w lewo'),
+          Text(' <== Nie patrz w lewo'),
+          Text(' <== Nie patrz w lewo'),
+        ],
+      ),
+      color: Colors.blue,
       //Tutaj możesz dodawać swoje widżety i inne gadżety
     );
   }
